@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./github_stats.svg" width="100%" alt="Animated monochrome terminal profile for Penumarthi Phanindra Surya Prabhas"/>
+<img src="./github_stats.svg" width="100%" alt="Typing terminal profile for Penumarthi Phanindra Surya Prabhas"/>
 
 **B.Tech · Computer Science & Engineering (AI & Data Science)**  
 SCSVMV University · 2024–2028
@@ -57,6 +57,8 @@ DSA  CPP  DAA  JAVA  DBMS  R
 $ echo "Learning. Building. Improving."
 Learning. Building. Improving.
 ```
+
+> The terminal header above types each command and reveals its output in sequence. If your browser or GitHub image renderer disables SVG animation, the profile details and commands remain available below.
 
 ---
 
