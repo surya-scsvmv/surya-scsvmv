@@ -1,33 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="430" viewBox="0 0 840 430" role="img" aria-labelledby="title desc">
-  <title id="title">Penumarthi Phanindra Surya Prabhas — terminal profile</title>
-  <desc id="desc">A dark terminal window showing a command-line introduction, developer interests, technologies, and links.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="760" viewBox="0 0 960 760" role="img" aria-labelledby="title desc">
+  <title id="title">Penumarthi Phanindra Surya Prabhas — animated terminal profile</title>
+  <desc id="desc">Monochrome animated terminal showing profile details, commands, technologies, repositories, and contact links.</desc>
   <defs>
     <style>
-      .bg{fill:#282a36}.muted{fill:#6272a4}.pink{fill:#ff79c6}.cyan{fill:#8be9fd}.green{fill:#50fa7b}.yellow{fill:#f1fa8c}.white{fill:#f8f8f2}.line{stroke:#44475a;stroke-width:1}
+      .bg{fill:#050505}.panel{fill:#0b0b0b;stroke:#555;stroke-width:1}.line{stroke:#333;stroke-width:1}
+      .white{fill:#f5f5f5}.silver{fill:#bdbdbd}.muted{fill:#777}.dim{fill:#555}
       text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;font-size:15px}
-      .small{font-size:13px}.bold{font-weight:700}
-      .cursor{animation:blink 1s steps(2,start) infinite}
-      @keyframes blink{to{visibility:hidden}}
+      .small{font-size:12px}.tiny{font-size:11px}.bold{font-weight:700}.command{fill:#fff}
+      .cursor{animation:blink 1s steps(2,start) infinite}.scan{animation:scan 7s linear infinite;opacity:.18}
+      .boot{animation:fadein .7s ease-out both}.d1{animation-delay:.3s}.d2{animation-delay:.7s}.d3{animation-delay:1.1s}.d4{animation-delay:1.5s}.d5{animation-delay:1.9s}
+      .typing{animation:typein 1.5s steps(24,end) both;white-space:nowrap;overflow:hidden}
+      @keyframes blink{to{visibility:hidden}} @keyframes fadein{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes scan{from{transform:translateY(-10px)}to{transform:translateY(740px)}}
+      @keyframes typein{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+      @media (prefers-reduced-motion:reduce){.cursor,.scan,.boot,.typing{animation:none}}
     </style>
+    <clipPath id="screen"><rect x="1" y="1" width="958" height="758" rx="12"/></clipPath>
   </defs>
-  <rect class="bg" x="1" y="1" width="838" height="428" rx="10" stroke="#44475a"/>
-  <path d="M1 42H839" class="line"/>
-  <circle cx="23" cy="21" r="6" fill="#ff5555"/><circle cx="43" cy="21" r="6" fill="#f1fa8c"/><circle cx="63" cy="21" r="6" fill="#50fa7b"/>
-  <text x="420" y="26" text-anchor="middle" class="white small">surya@github: ~</text>
-  <text x="26" y="76" class="pink">surya@github</text><text x="150" y="76" class="white">:</text><text x="160" y="76" class="cyan">~</text><text x="174" y="76" class="green">$</text><text x="192" y="76" class="white">whoami</text>
-  <text x="26" y="106" class="white bold">PENUMARTHI PHANINDRA SURYA PRABHAS</text>
-  <text x="26" y="132" class="pink">------------------------------</text>
-  <text x="26" y="163" class="pink">surya@github</text><text x="150" y="163" class="white">:</text><text x="160" y="163" class="cyan">~</text><text x="174" y="163" class="green">$</text><text x="192" y="163" class="white">neofetch</text>
-  <text x="34" y="200" class="green">████████</text><text x="34" y="219" class="green">██  ██</text><text x="34" y="238" class="green">████████</text><text x="34" y="257" class="green">██  ██</text><text x="34" y="276" class="green">██  ██</text>
-  <text x="150" y="198" class="yellow bold">surya-scsvmv@github</text>
-  <text x="150" y="222" class="yellow">Role</text><text x="230" y="222" class="white">Computer Science &amp; Engineering student</text>
-  <text x="150" y="244" class="yellow">Focus</text><text x="230" y="244" class="white">AI &amp; Data Science</text>
-  <text x="150" y="266" class="yellow">Studies</text><text x="230" y="266" class="white">SCSVMV University · 2024–2028</text>
-  <text x="150" y="288" class="yellow">Learning</text><text x="230" y="288" class="white">Java · C/C++ · SQL · Python · R</text>
-  <text x="150" y="310" class="yellow">Interests</text><text x="230" y="310" class="white">Algorithms · Databases · AI · Game development</text>
-  <path d="M26 331H814" class="line"/>
-  <text x="26" y="357" class="pink">surya@github</text><text x="150" y="357" class="white">:</text><text x="160" y="357" class="cyan">~</text><text x="174" y="357" class="green">$</text><text x="192" y="357" class="white">cat links.txt</text>
-  <text x="26" y="384" class="cyan">github.com/surya-scsvmv</text><text x="292" y="384" class="muted">|</text><text x="310" y="384" class="cyan">github.com/suryaprabhaz</text>
-  <text x="26" y="408" class="cyan">instagram.com/suryaprabhaz</text><text x="310" y="408" class="muted">|</text><text x="328" y="408" class="cyan">11249a284@kanchiuniv.ac.in</text>
-  <rect x="446" y="343" width="9" height="17" fill="#50fa7b" class="cursor"/>
+  <g clip-path="url(#screen)">
+    <rect class="bg" x="1" y="1" width="958" height="758" rx="12"/>
+    <rect class="panel" x="1" y="1" width="958" height="43" rx="12"/>
+    <rect class="bg" x="1" y="31" width="958" height="14"/>
+    <circle cx="23" cy="22" r="5" fill="#eee"/><circle cx="42" cy="22" r="5" fill="#999"/><circle cx="61" cy="22" r="5" fill="#555"/>
+    <text x="480" y="27" text-anchor="middle" class="silver small">surya@github:~ — terminal session</text>
+    <g class="boot">
+      <text x="25" y="76" class="silver">surya@github</text><text x="144" y="76" class="muted">:</text><text x="154" y="76" class="white">~</text><text x="168" y="76" class="white">$</text><text x="187" y="76" class="command">whoami</text>
+      <text x="25" y="103" class="white bold">PENUMARTHI PHANINDRA SURYA PRABHAS</text>
+      <text x="25" y="124" class="silver small">Computer Science &amp; Engineering · Artificial Intelligence &amp; Data Science</text>
+    </g>
+    <g class="boot d1">
+      <text x="25" y="158" class="silver">surya@github</text><text x="144" y="158" class="muted">:</text><text x="154" y="158" class="white">~</text><text x="168" y="158" class="white">$</text><text x="187" y="158" class="command">neofetch</text>
+      <rect x="25" y="177" width="910" height="176" rx="5" fill="#090909" stroke="#333"/>
+      <text x="45" y="203" class="white bold">surya-scsvmv@github</text>
+      <text x="45" y="225" class="silver">────────────────────────────────────────────────────────────</text>
+      <text x="45" y="250" class="silver">NAME</text><text x="155" y="250" class="white">Penumarthi Phanindra Surya Prabhas</text>
+      <text x="45" y="272" class="silver">ROLE</text><text x="155" y="272" class="white">B.Tech student · CSE (AI &amp; DS)</text>
+      <text x="45" y="294" class="silver">UNIVERSITY</text><text x="155" y="294" class="white">SCSVMV University</text>
+      <text x="45" y="316" class="silver">TIMELINE</text><text x="155" y="316" class="white">2024–2028</text>
+      <text x="45" y="338" class="silver">INTERESTS</text><text x="155" y="338" class="white">Programming · Algorithms · Databases · AI · Game development</text>
+    </g>
+    <g class="boot d2">
+      <text x="25" y="384" class="silver">surya@github</text><text x="144" y="384" class="muted">:</text><text x="154" y="384" class="white">~</text><text x="168" y="384" class="white">$</text><text x="187" y="384" class="command">cat skills.txt</text>
+      <text x="25" y="410" class="white">C · C++ · Java · Python · R · SQL · HTML · CSS · JavaScript · Git</text>
+      <text x="25" y="433" class="silver small">Learning by building, documenting, and improving practical projects.</text>
+    </g>
+    <g class="boot d3">
+      <text x="25" y="469" class="silver">surya@github</text><text x="144" y="469" class="muted">:</text><text x="154" y="469" class="white">~</text><text x="168" y="469" class="white">$</text><text x="187" y="469" class="command">ls -1 ~/repositories</text>
+      <text x="25" y="495" class="white">DSA/</text><text x="135" y="495" class="silver">CPP/</text><text x="245" y="495" class="white">DAA/</text><text x="355" y="495" class="silver">JAVA/</text><text x="465" y="495" class="white">DBMS/</text><text x="575" y="495" class="silver">R/</text>
+      <text x="25" y="518" class="muted small">Data structures · C++ practice · Algorithms · Java labs · SQL/DBMS · R exercises</text>
+    </g>
+    <g class="boot d4">
+      <text x="25" y="555" class="silver">surya@github</text><text x="144" y="555" class="muted">:</text><text x="154" y="555" class="white">~</text><text x="168" y="555" class="white">$</text><text x="187" y="555" class="command">cat links.txt</text>
+      <text x="25" y="581" class="white">GitHub</text><text x="125" y="581" class="silver">https://github.com/suryaprabhaz</text>
+      <text x="25" y="603" class="white">Student</text><text x="125" y="603" class="silver">https://github.com/surya-scsvmv</text>
+      <text x="25" y="625" class="white">Instagram</text><text x="125" y="625" class="silver">https://instagram.com/suryaprabhaz</text>
+      <text x="25" y="647" class="white">Email</text><text x="125" y="647" class="silver">11249a284@kanchiuniv.ac.in</text>
+    </g>
+    <g class="boot d5">
+      <path d="M25 670H935" class="line"/>
+      <text x="25" y="696" class="silver">surya@github</text><text x="144" y="696" class="muted">:</text><text x="154" y="696" class="white">~</text><text x="168" y="696" class="white">$</text><text x="187" y="696" class="command">git status</text>
+      <text x="25" y="720" class="white">Learning. Building. Improving.</text><rect x="263" y="707" width="9" height="17" fill="#eee" class="cursor"/>
+      <text x="935" y="741" text-anchor="end" class="muted tiny">MONOCHROME MODE · PROFILE SESSION v1.0</text>
+    </g>
+    <rect x="1" y="1" width="958" height="758" fill="#fff" class="scan" opacity=".04"/>
+  </g>
+  <rect x="1" y="1" width="958" height="758" rx="12" fill="none" stroke="#555" stroke-width="1"/>
 </svg>
