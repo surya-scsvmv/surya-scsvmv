@@ -1,37 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="516" viewBox="0 0 840 516" role="img" aria-labelledby="title desc">
-<title id="title">Surya Prabhas — terminal profile</title><desc id="desc">A Dracula-themed terminal showing Surya Prabhas's developer profile, education, technologies, repositories, and links.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="462" viewBox="0 0 840 462" role="img" aria-labelledby="title desc">
+<title id="title">Surya Prabhas — terminal profile</title><desc id="desc">A compact Dracula-themed terminal showing Surya Prabhas's developer profile, education, technologies, repositories, and links.</desc>
 <style>
 .bg{fill:#282a36}.red{fill:#ff5f58}.yellow{fill:#ffbd2e}.green{fill:#18c132}.mono{font-family:Monaco,Consolas,Menlo,'Liberation Mono',monospace;font-size:14px;white-space:pre}.pink{fill:#ff79c6}.white{fill:#f8f8f2}.cyan{fill:#8be9fd}.lime{fill:#50fa7b}.gold{fill:#f1fa8c}.muted{fill:#6272a4}
 .line{opacity:0;animation:show .15s steps(1,end) forwards}
-.l1{animation-delay:.15s}.l2{animation-delay:.65s}.l3{animation-delay:1.1s}.l4{animation-delay:1.55s}.l5{animation-delay:2s}.l6{animation-delay:2.45s}.l7{animation-delay:2.9s}.l8{animation-delay:3.35s}.l9{animation-delay:3.8s}.l10{animation-delay:4.25s}.l11{animation-delay:4.7s}.l12{animation-delay:5.15s}.l13{animation-delay:5.6s}.l14{animation-delay:6.05s}.l15{animation-delay:6.5s}.l16{animation-delay:6.95s}.l17{animation-delay:7.4s}.l18{animation-delay:7.85s}
+.l1{animation-delay:.15s}.l2{animation-delay:.45s}.l3{animation-delay:.75s}.l4{animation-delay:1.05s}.l5{animation-delay:1.35s}.l6{animation-delay:1.65s}.l7{animation-delay:1.95s}.l8{animation-delay:2.25s}.l9{animation-delay:2.55s}.l10{animation-delay:2.85s}.l11{animation-delay:3.15s}.l12{animation-delay:3.45s}.l13{animation-delay:3.75s}.l14{animation-delay:4.05s}.l15{animation-delay:4.35s}.l16{animation-delay:4.65s}.l17{animation-delay:4.95s}.l18{animation-delay:5.25s}
 @keyframes show{to{opacity:1}}
 </style>
-<rect class="bg" width="840" height="516" rx="9"/>
+<rect class="bg" width="840" height="462" rx="9"/>
 <circle class="red" cx="22" cy="22" r="6"/><circle class="yellow" cx="42" cy="22" r="6"/><circle class="green" cx="62" cy="22" r="6"/>
 <text x="420" y="27" class="mono muted" text-anchor="middle" font-size="12">surya-prabhas — terminal</text>
 <g class="mono">
-<text x="24" y="68" class="line l1"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ whoami</tspan></text>
-<text x="24" y="94" class="line l2 white">PENUMARTHI PHANINDRA SURYA PRABHAS</text>
-<text x="24" y="130" class="line l3"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ neofetch</tspan></text>
-<text x="38" y="158" class="line l4 lime">      ████████</text>
-<text x="38" y="180" class="line l5 lime">    ████████████</text>
-<text x="38" y="202" class="line l6 lime">   ███  ███  ███</text>
-<text x="38" y="224" class="line l7 lime">   ██████████████</text>
-<text x="38" y="246" class="line l8 lime">    ███      ███</text>
-<text x="38" y="268" class="line l9 lime">     ██████████</text>
-<text x="340" y="158" class="line l4"><tspan class="gold">surya-scsvmv</tspan><tspan class="white">@</tspan><tspan class="gold">github.com</tspan></text>
-<text x="340" y="180" class="line l5 gold">------------------------------</text>
-<text x="340" y="202" class="line l6"><tspan class="gold">Name:</tspan><tspan class="white">       Surya Prabhas</tspan></text>
-<text x="340" y="224" class="line l7"><tspan class="gold">Education:</tspan><tspan class="white">  B.Tech CSE (AI &amp; DS)</tspan></text>
-<text x="340" y="246" class="line l8"><tspan class="gold">University:</tspan><tspan class="white"> SCSVMV University</tspan></text>
-<text x="340" y="268" class="line l9"><tspan class="gold">Batch:</tspan><tspan class="white">      2024–2028</tspan></text>
-<text x="340" y="290" class="line l10"><tspan class="gold">Focus:</tspan><tspan class="white">      Software Development</tspan></text>
-<text x="24" y="326" class="line l11"><tspan class="gold">Languages</tspan><tspan class="white">   C · C++ · Java · Python · R · SQL</tspan></text>
-<text x="24" y="350" class="line l12"><tspan class="gold">Web</tspan><tspan class="white">         HTML · CSS · JavaScript</tspan></text>
-<text x="24" y="374" class="line l13"><tspan class="gold">Tools</tspan><tspan class="white">       Git · GitHub</tspan></text>
-<text x="24" y="398" class="line l14"><tspan class="gold">Repositories</tspan><tspan class="white"> DSA · CPP · DAA · JAVA · DBMS · R</tspan></text>
-<text x="24" y="434" class="line l15"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ uptime</tspan></text>
-<text x="24" y="458" class="line l16 white">Learning, building, and shipping one project at a time.</text>
-<text x="24" y="484" class="line l17"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ links</tspan></text>
-<text x="24" y="506" class="line l18"><tspan class="cyan">github.com/suryaprabhaz</tspan><tspan class="white">  |  </tspan><tspan class="pink">instagram.com/suryaprabhaz</tspan></text>
+<text x="24" y="60" class="line l1"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ whoami</tspan></text>
+<text x="24" y="80" class="line l2 white">PENUMARTHI PHANINDRA SURYA PRABHAS</text>
+<text x="24" y="108" class="line l3"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ neofetch</tspan></text>
+<text x="38" y="132" class="line l4 lime">      ████████</text>
+<text x="38" y="152" class="line l5 lime">    ████████████</text>
+<text x="38" y="172" class="line l6 lime">   ███  ███  ███</text>
+<text x="38" y="192" class="line l7 lime">   ██████████████</text>
+<text x="38" y="212" class="line l8 lime">    ███      ███</text>
+<text x="38" y="232" class="line l9 lime">     ██████████</text>
+<text x="340" y="132" class="line l4"><tspan class="gold">surya-scsvmv</tspan><tspan class="white">@</tspan><tspan class="gold">github.com</tspan></text>
+<text x="340" y="152" class="line l5 gold">------------------------------</text>
+<text x="340" y="172" class="line l6"><tspan class="gold">Name:</tspan><tspan class="white">       Surya Prabhas</tspan></text>
+<text x="340" y="192" class="line l7"><tspan class="gold">Education:</tspan><tspan class="white">  B.Tech CSE (AI &amp; DS)</tspan></text>
+<text x="340" y="212" class="line l8"><tspan class="gold">University:</tspan><tspan class="white"> SCSVMV University</tspan></text>
+<text x="340" y="232" class="line l9"><tspan class="gold">Batch:</tspan><tspan class="white">      2024–2028</tspan></text>
+<text x="340" y="252" class="line l10"><tspan class="gold">Focus:</tspan><tspan class="white">      Software Development</tspan></text>
+<text x="24" y="282" class="line l11"><tspan class="gold">Languages</tspan><tspan class="white">   C · C++ · Java · Python · R · SQL</tspan></text>
+<text x="24" y="302" class="line l12"><tspan class="gold">Web</tspan><tspan class="white">         HTML · CSS · JavaScript</tspan></text>
+<text x="24" y="322" class="line l13"><tspan class="gold">Tools</tspan><tspan class="white">       Git · GitHub</tspan></text>
+<text x="24" y="342" class="line l14"><tspan class="gold">Repositories</tspan><tspan class="white"> DSA · CPP · DAA · JAVA · DBMS · R</tspan></text>
+<text x="24" y="372" class="line l15"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ uptime</tspan></text>
+<text x="24" y="392" class="line l16 white">Learning, building, and shipping one project at a time.</text>
+<text x="24" y="422" class="line l17"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ links</tspan></text>
+<text x="24" y="442" class="line l18"><tspan class="cyan">github.com/suryaprabhaz</tspan><tspan class="white">  |  </tspan><tspan class="pink">instagram.com/suryaprabhaz</tspan></text>
 </g></svg>
