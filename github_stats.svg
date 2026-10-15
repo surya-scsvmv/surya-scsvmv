@@ -1,53 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="820" viewBox="0 0 960 820" role="img" aria-labelledby="title desc">
-<title id="title">Surya Prabhas — typing terminal profile</title>
-<desc id="desc">A realistic dark terminal with a typewriter effect that types commands and reveals profile details in sequence.</desc>
-<defs>
-<style>
+<title id="title">Surya Prabhas — terminal profile</title>
+<desc id="desc">A clean, realistic terminal profile. Commands and their output are typed character by character, with no other animation.</desc>
+<defs><style>
 .bg{fill:#080808}.bar{fill:#141414;stroke:#393939}.rule{stroke:#333;stroke-width:1}
 text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;font-size:15px}
-.title{fill:#eee}.muted{fill:#858585}.prompt{fill:#bdbdbd}.cmd{fill:#f5f5f5}.out{fill:#dedede}.dim{fill:#686868}.small{font-size:12px}.tiny{font-size:11px}.bold{font-weight:700}
-.type{clip-path:inset(0 100% 0 0);animation:typing var(--duration,1.1s) steps(var(--chars,12),end) var(--delay,0s) forwards}
-.result{opacity:0;animation:appear .15s linear var(--show,1.2s) forwards}
-.cursor{animation:blink .9s steps(2,start) infinite}
+.muted{fill:#858585}.prompt{fill:#bdbdbd}.cmd{fill:#f5f5f5}.out{fill:#dedede}.dim{fill:#686868}.small{font-size:12px}.tiny{font-size:11px}.bold{font-weight:700}
+.type{clip-path:inset(0 100% 0 0);animation:typing var(--duration,1s) steps(var(--chars,12),end) var(--delay,0s) forwards}
 @keyframes typing{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
-@keyframes appear{to{opacity:1}} @keyframes blink{to{visibility:hidden}}
-@media(prefers-reduced-motion:reduce){.type{clip-path:none;animation:none}.result{opacity:1;animation:none}.cursor{animation:none}}
-</style>
-</defs>
+@media(prefers-reduced-motion:reduce){.type{clip-path:none;animation:none}}
+</style></defs>
 <rect class="bg" x="1" y="1" width="958" height="818" rx="10" stroke="#555"/>
 <rect class="bar" x="1" y="1" width="958" height="43" rx="10"/><rect class="bg" x="1" y="32" width="958" height="12"/>
 <circle cx="23" cy="22" r="5" fill="#e5e5e5"/><circle cx="42" cy="22" r="5" fill="#888"/><circle cx="61" cy="22" r="5" fill="#444"/>
-<text x="480" y="27" text-anchor="middle" class="muted small">surya@github: ~ — zsh</text>
-<!-- whoami -->
-<text x="25" y="78" class="prompt">surya@github:~$</text><text x="177" y="78" class="cmd type" style="--chars:6;--duration:.45s;--delay:.25s">whoami</text>
-<text x="25" y="105" class="out result" style="--show:.85s">Penumarthi Phanindra Surya Prabhas</text>
-<!-- about -->
-<text x="25" y="146" class="prompt">surya@github:~$</text><text x="177" y="146" class="cmd type" style="--chars:12;--duration:.7s;--delay:1.2s">cat about.txt</text>
-<text x="25" y="173" class="out result" style="--show:2s">B.Tech student · Computer Science &amp; Engineering (AI &amp; Data Science)</text>
-<text x="25" y="196" class="out result" style="--show:2.15s">SCSVMV University · 2024–2028</text>
-<text x="25" y="219" class="out result" style="--show:2.3s">Interests: programming, algorithms, databases, AI, interactive game development</text>
-<!-- skills -->
-<text x="25" y="260" class="prompt">surya@github:~$</text><text x="177" y="260" class="cmd type" style="--chars:13;--duration:.72s;--delay:2.8s">cat skills.txt</text>
-<text x="25" y="287" class="out result" style="--show:3.65s">Languages  : C · C++ · Java · Python · R · SQL</text>
-<text x="25" y="310" class="out result" style="--show:3.8s">Web / Tools: HTML · CSS · JavaScript · Git · GitHub</text>
-<!-- repos -->
-<text x="25" y="351" class="prompt">surya@github:~$</text><text x="177" y="351" class="cmd type" style="--chars:19;--duration:1s;--delay:4.25s">ls -1 ~/repositories</text>
-<text x="25" y="378" class="out result" style="--show:5.35s">DSA/</text><text x="110" y="378" class="out result" style="--show:5.4s">CPP/</text><text x="195" y="378" class="out result" style="--show:5.45s">DAA/</text><text x="280" y="378" class="out result" style="--show:5.5s">JAVA/</text><text x="380" y="378" class="out result" style="--show:5.55s">DBMS/</text><text x="490" y="378" class="out result" style="--show:5.6s">R/</text>
-<text x="25" y="401" class="muted small result" style="--show:5.7s">Data structures · C++ practice · Algorithms · Java labs · SQL · R exercises</text>
-<!-- links -->
-<text x="25" y="442" class="prompt">surya@github:~$</text><text x="177" y="442" class="cmd type" style="--chars:13;--duration:.72s;--delay:6.1s">cat links.txt</text>
-<text x="25" y="469" class="out result" style="--show:6.95s">GitHub    : github.com/suryaprabhaz</text>
-<text x="25" y="492" class="out result" style="--show:7.1s">Student   : github.com/surya-scsvmv</text>
-<text x="25" y="515" class="out result" style="--show:7.25s">Instagram : instagram.com/suryaprabhaz</text>
-<text x="25" y="538" class="out result" style="--show:7.4s">Email     : 11249a284@kanchiuniv.ac.in</text>
-<!-- command demo -->
-<text x="25" y="579" class="prompt">surya@github:~$</text><text x="177" y="579" class="cmd type" style="--chars:32;--duration:1.5s;--delay:7.9s">echo "Learning. Building. Improving."</text>
-<text x="25" y="606" class="out result" style="--show:9.5s">Learning. Building. Improving.</text>
+<text x="480" y="27" text-anchor="middle" class="muted small">surya@github: ~ — bash</text>
+<text x="25" y="78" class="prompt">surya@github:~$</text><text x="177" y="78" class="cmd type" style="--chars:6;--duration:.4s;--delay:.2s">whoami</text>
+<text x="25" y="105" class="out type" style="--chars:35;--duration:1.1s;--delay:.8s">Penumarthi Phanindra Surya Prabhas</text>
+<text x="25" y="146" class="prompt">surya@github:~$</text><text x="177" y="146" class="cmd type" style="--chars:12;--duration:.65s;--delay:2.1s">cat about.txt</text>
+<text x="25" y="173" class="out type" style="--chars:69;--duration:1.8s;--delay:2.9s">B.Tech student · Computer Science &amp; Engineering (AI &amp; Data Science)</text>
+<text x="25" y="196" class="out type" style="--chars:32;--duration:.9s;--delay:4.8s">SCSVMV University · 2024–2028</text>
+<text x="25" y="219" class="out type" style="--chars:77;--duration:1.9s;--delay:5.8s">Interests: programming, algorithms, databases, AI, interactive game development</text>
+<text x="25" y="260" class="prompt">surya@github:~$</text><text x="177" y="260" class="cmd type" style="--chars:13;--duration:.7s;--delay:7.8s">cat skills.txt</text>
+<text x="25" y="287" class="out type" style="--chars:48;--duration:1.25s;--delay:8.7s">Languages  : C · C++ · Java · Python · R · SQL</text>
+<text x="25" y="310" class="out type" style="--chars:49;--duration:1.25s;--delay:10s">Web / Tools: HTML · CSS · JavaScript · Git · GitHub</text>
+<text x="25" y="351" class="prompt">surya@github:~$</text><text x="177" y="351" class="cmd type" style="--chars:19;--duration:1s;--delay:11.4s">ls -1 ~/repositories</text>
+<text x="25" y="378" class="out type" style="--chars:4;--duration:.2s;--delay:12.6s">DSA/</text><text x="110" y="378" class="out type" style="--chars:4;--duration:.2s;--delay:12.85s">CPP/</text><text x="195" y="378" class="out type" style="--chars:4;--duration:.2s;--delay:13.1s">DAA/</text><text x="280" y="378" class="out type" style="--chars:5;--duration:.25s;--delay:13.35s">JAVA/</text><text x="380" y="378" class="out type" style="--chars:5;--duration:.25s;--delay:13.65s">DBMS/</text><text x="490" y="378" class="out type" style="--chars:2;--duration:.15s;--delay:13.95s">R/</text>
+<text x="25" y="401" class="muted small type" style="--chars:71;--duration:1.7s;--delay:14.2s">Data structures · C++ practice · Algorithms · Java labs · SQL · R exercises</text>
+<text x="25" y="442" class="prompt">surya@github:~$</text><text x="177" y="442" class="cmd type" style="--chars:13;--duration:.7s;--delay:16s">cat links.txt</text>
+<text x="25" y="469" class="out type" style="--chars:36;--duration:.9s;--delay:16.9s">GitHub    : github.com/suryaprabhaz</text>
+<text x="25" y="492" class="out type" style="--chars:37;--duration:.95s;--delay:17.9s">Student   : github.com/surya-scsvmv</text>
+<text x="25" y="515" class="out type" style="--chars:40;--duration:1s;--delay:18.95s">Instagram : instagram.com/suryaprabhaz</text>
+<text x="25" y="538" class="out type" style="--chars:39;--duration:1s;--delay:20s">Email     : 11249a284@kanchiuniv.ac.in</text>
+<text x="25" y="579" class="prompt">surya@github:~$</text><text x="177" y="579" class="cmd type" style="--chars:32;--duration:1.5s;--delay:21.2s">echo "Learning. Building. Improving."</text>
+<text x="25" y="606" class="out type" style="--chars:29;--duration:1s;--delay:22.8s">Learning. Building. Improving.</text>
 <path d="M25 633H935" class="rule"/>
-<text x="25" y="661" class="prompt">surya@github:~$</text><text x="177" y="661" class="cmd type" style="--chars:9;--duration:.55s;--delay:10s">git status</text>
-<text x="25" y="688" class="out result" style="--show:10.7s">On branch main · working tree clean</text>
+<text x="25" y="661" class="prompt">surya@github:~$</text><text x="177" y="661" class="cmd type" style="--chars:9;--duration:.55s;--delay:24s">git status</text>
+<text x="25" y="688" class="out type" style="--chars:35;--duration:1s;--delay:24.7s">On branch main · working tree clean</text>
 <text x="25" y="731" class="muted small">MONOCHROME TERMINAL · PROFILE SESSION</text>
-<text x="25" y="755" class="dim tiny">Built around real profile details · animated command-by-command on load</text>
-<rect x="279" y="647" width="9" height="17" fill="#eee" class="cursor"/>
+<text x="25" y="755" class="dim tiny">Commands and output type in sequence · no blinking or scan effects</text>
 <text x="935" y="790" text-anchor="end" class="muted tiny">LEARN / BUILD / IMPROVE</text>
 </svg>
