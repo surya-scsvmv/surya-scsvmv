@@ -1,37 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="462" viewBox="0 0 840 462" role="img" aria-labelledby="title desc">
-<title id="title">Surya Prabhas — terminal profile</title><desc id="desc">A compact Dracula-themed terminal showing Surya Prabhas's developer profile, education, technologies, repositories, and links.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="380" viewBox="0 0 840 380" role="img" aria-labelledby="title desc">
+<title id="title">Surya Prabhas — terminal profile</title>
+<desc id="desc">Compact terminal-style GitHub profile with sequential text reveal and account tenure.</desc>
 <style>
-.bg{fill:#282a36}.red{fill:#ff5f58}.yellow{fill:#ffbd2e}.green{fill:#18c132}.mono{font-family:Monaco,Consolas,Menlo,'Liberation Mono',monospace;font-size:14px;white-space:pre}.pink{fill:#ff79c6}.white{fill:#f8f8f2}.cyan{fill:#8be9fd}.lime{fill:#50fa7b}.gold{fill:#f1fa8c}.muted{fill:#6272a4}
-.line{opacity:0;animation:show .15s steps(1,end) forwards}
-.l1{animation-delay:.15s}.l2{animation-delay:.45s}.l3{animation-delay:.75s}.l4{animation-delay:1.05s}.l5{animation-delay:1.35s}.l6{animation-delay:1.65s}.l7{animation-delay:1.95s}.l8{animation-delay:2.25s}.l9{animation-delay:2.55s}.l10{animation-delay:2.85s}.l11{animation-delay:3.15s}.l12{animation-delay:3.45s}.l13{animation-delay:3.75s}.l14{animation-delay:4.05s}.l15{animation-delay:4.35s}.l16{animation-delay:4.65s}.l17{animation-delay:4.95s}.l18{animation-delay:5.25s}
-@keyframes show{to{opacity:1}}
+.bg{fill:#282a36}.mono{font-family:Consolas,Monaco,Menlo,'Liberation Mono',monospace;font-size:14px}.pink{fill:#ff79c6}.white{fill:#f8f8f2}.cyan{fill:#8be9fd}.lime{fill:#50fa7b}.gold{fill:#f1fa8c}.muted{fill:#6272a4}
+.reveal{opacity:0;animation:appear .01s steps(1,end) forwards}
+.a1{animation-delay:.1s}.a2{animation-delay:.45s}.a3{animation-delay:.8s}.a4{animation-delay:1.15s}.a5{animation-delay:1.5s}.a6{animation-delay:1.85s}.a7{animation-delay:2.2s}.a8{animation-delay:2.55s}.a9{animation-delay:2.9s}.a10{animation-delay:3.25s}.a11{animation-delay:3.6s}.a12{animation-delay:3.95s}.a13{animation-delay:4.3s}.a14{animation-delay:4.65s}
+@keyframes appear{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.reveal{animation:none;opacity:1}}
 </style>
-<rect class="bg" width="840" height="462" rx="9"/>
-<circle class="red" cx="22" cy="22" r="6"/><circle class="yellow" cx="42" cy="22" r="6"/><circle class="green" cx="62" cy="22" r="6"/>
+<rect class="bg" width="840" height="380" rx="9"/>
+<circle cx="22" cy="22" r="6" fill="#ff5f58"/><circle cx="42" cy="22" r="6" fill="#ffbd2e"/><circle cx="62" cy="22" r="6" fill="#50fa7b"/>
 <text x="420" y="27" class="mono muted" text-anchor="middle" font-size="12">surya-prabhas — terminal</text>
 <g class="mono">
-<text x="24" y="60" class="line l1"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ whoami</tspan></text>
-<text x="24" y="80" class="line l2 white">PENUMARTHI PHANINDRA SURYA PRABHAS</text>
-<text x="24" y="108" class="line l3"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ neofetch</tspan></text>
-<text x="38" y="132" class="line l4 lime">      ████████</text>
-<text x="38" y="152" class="line l5 lime">    ████████████</text>
-<text x="38" y="172" class="line l6 lime">   ███  ███  ███</text>
-<text x="38" y="192" class="line l7 lime">   ██████████████</text>
-<text x="38" y="212" class="line l8 lime">    ███      ███</text>
-<text x="38" y="232" class="line l9 lime">     ██████████</text>
-<text x="340" y="132" class="line l4"><tspan class="gold">surya-scsvmv</tspan><tspan class="white">@</tspan><tspan class="gold">github.com</tspan></text>
-<text x="340" y="152" class="line l5 gold">------------------------------</text>
-<text x="340" y="172" class="line l6"><tspan class="gold">Name:</tspan><tspan class="white">       Surya Prabhas</tspan></text>
-<text x="340" y="192" class="line l7"><tspan class="gold">Education:</tspan><tspan class="white">  B.Tech CSE (AI &amp; DS)</tspan></text>
-<text x="340" y="212" class="line l8"><tspan class="gold">University:</tspan><tspan class="white"> SCSVMV University</tspan></text>
-<text x="340" y="232" class="line l9"><tspan class="gold">Batch:</tspan><tspan class="white">      2024–2028</tspan></text>
-<text x="340" y="252" class="line l10"><tspan class="gold">Focus:</tspan><tspan class="white">      Software Development</tspan></text>
-<text x="24" y="282" class="line l11"><tspan class="gold">Languages</tspan><tspan class="white">   C · C++ · Java · Python · R · SQL</tspan></text>
-<text x="24" y="302" class="line l12"><tspan class="gold">Web</tspan><tspan class="white">         HTML · CSS · JavaScript</tspan></text>
-<text x="24" y="322" class="line l13"><tspan class="gold">Tools</tspan><tspan class="white">       Git · GitHub</tspan></text>
-<text x="24" y="342" class="line l14"><tspan class="gold">Repositories</tspan><tspan class="white"> DSA · CPP · DAA · JAVA · DBMS · R</tspan></text>
-<text x="24" y="372" class="line l15"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ uptime</tspan></text>
-<text x="24" y="392" class="line l16 white">Learning, building, and shipping one project at a time.</text>
-<text x="24" y="422" class="line l17"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ links</tspan></text>
-<text x="24" y="442" class="line l18"><tspan class="cyan">github.com/suryaprabhaz</tspan><tspan class="white">  |  </tspan><tspan class="pink">instagram.com/suryaprabhaz</tspan></text>
+<text x="24" y="62" class="reveal a1"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ whoami</tspan></text>
+<text x="24" y="84" class="reveal a2 white">PENUMARTHI PHANINDRA SURYA PRABHAS</text>
+<text x="24" y="116" class="reveal a3"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ neofetch</tspan></text>
+<text x="24" y="140" class="reveal a4"><tspan class="gold">Name:</tspan><tspan class="white">       Surya Prabhas</tspan></text>
+<text x="24" y="162" class="reveal a5"><tspan class="gold">Education:</tspan><tspan class="white">  B.Tech CSE (AI &amp; DS)</tspan></text>
+<text x="24" y="184" class="reveal a6"><tspan class="gold">University:</tspan><tspan class="white"> SCSVMV University</tspan></text>
+<text x="24" y="206" class="reveal a7"><tspan class="gold">Batch:</tspan><tspan class="white">      2024–2028</tspan></text>
+<text x="24" y="238" class="reveal a8"><tspan class="gold">Languages:</tspan><tspan class="white"> C · C++ · Java · Python · R · SQL</tspan></text>
+<text x="24" y="260" class="reveal a9"><tspan class="gold">Web:</tspan><tspan class="white">       HTML · CSS · JavaScript</tspan></text>
+<text x="24" y="282" class="reveal a10"><tspan class="gold">Tools:</tspan><tspan class="white">      Git · GitHub</tspan></text>
+<text x="24" y="304" class="reveal a11"><tspan class="gold">Repos:</tspan><tspan class="white">     DSA · CPP · DAA · JAVA · DBMS · R</tspan></text>
+<text x="24" y="336" class="reveal a12"><tspan class="pink">surya@github.com</tspan><tspan class="white">:</tspan><tspan class="cyan">~</tspan><tspan class="lime">$ uptime</tspan></text>
+<text x="24" y="358" class="reveal a13 white">GitHub member since 2025 · building and learning every day.</text>
+<text x="24" y="376" class="reveal a14"><tspan class="cyan">github.com/suryaprabhaz</tspan><tspan class="white">  |  </tspan><tspan class="pink">instagram.com/suryaprabhaz</tspan></text>
 </g></svg>
