@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:262626,100:737373&height=190&section=header&text=SURYA%20PRABHAS&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=COMPUTER%20SCIENCE%20%7C%20AI%20%26%20DATA%20SCIENCE&descSize=14&descAlignY=60&descColor=E5E5E5" width="100%" alt="Animated monochrome banner for Surya Prabhas"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:404040,100:808080&height=220&section=header&text=Penumarthi%20Phanindra%20Surya%20Prabhas&fontSize=27&fontColor=FFFFFF&fontAlignY=35&desc=COMPUTER%20SCIENCE%20%7C%20AI%20%26%20DATA%20SCIENCE&descSize=14&descAlignY=58&descColor=E5E5E5" width="100%" alt="Penumarthi Phanindra Surya Prabhas — monochrome profile banner"/>
 
 <a href="https://github.com/suryaprabhaz"><img src="https://img.shields.io/badge/MAIN%20GITHUB-@suryaprabhaz-171717?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Main GitHub account @suryaprabhaz"/></a>
 <a href="https://github.com/surya-scsvmv"><img src="https://img.shields.io/badge/STUDENT%20GITHUB-@surya--scsvmv-404040?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Student GitHub account @surya-scsvmv"/></a>
@@ -19,7 +19,7 @@
 
 ## Profile
 
-I'm **Phanindra Surya Prabhas**, a B.Tech student in **Computer Science and Engineering (Artificial Intelligence & Data Science)** at **SCSVMV University** (2024–2028).
+I'm **Penumarthi Phanindra Surya Prabhas**, a B.Tech student in **Computer Science and Engineering (Artificial Intelligence & Data Science)** at **SCSVMV University** (2024–2028).
 
 I use GitHub to document my learning, organise academic lab work, practise core programming concepts, and build projects. I value readable code, clear documentation, and steady improvement.
 
